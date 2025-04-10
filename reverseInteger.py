@@ -10,7 +10,7 @@ class Solution:
 
         if is_negative:
             reversed_num = -reversed_num
-        #If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+        #If reversing x causes the value to go outside the signed 32-bit integer range [-2**31, 231 - 1], then return 0.
         if reversed_num < -2**31 or reversed_num > 2**31:
             return 0
         
