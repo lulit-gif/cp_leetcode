@@ -8,5 +8,3 @@ class Solution:
             num = digit
 
         return num
-
-        
